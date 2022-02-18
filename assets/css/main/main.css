@@ -1,0 +1,81 @@
+.principal{
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.principal__xbox{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 115%;
+    color: #FFFFFF;
+    padding-top: 30vh;
+}
+.principal__pedido{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    padding-bottom: 15vh;
+    color: #9BF00B;
+}
+.principal__imagem img{
+    z-index: 1;
+}
+.principal__imagem{
+    display: flex;
+    position: relative;
+}
+.principal__imagem::after{
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(134, 207, 9, 0.2) 20.31%, rgba(155, 240, 11, 0.3) 23.53%, rgba(0, 219, 0, 0.3) 35.42%, rgba(0, 123, 0, 0.3) 40.63%, rgba(0, 132, 0, 0.3) 49.51%) no-repeat center;
+    position: absolute;
+    filter: blur(250px) opacity(1);
+    width: 75vw;
+    height: 595px;
+    display: flex;
+    left: 10%;
+    bottom: 50%;
+    animation: mudar 5s infinite ease-in-out alternate;
+}
+@keyframes mudar {
+    to{
+        opacity: 0;
+    }
+}
+
+.conteudo__controle{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 20vh;
+}
+.conteudo__textos{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto__h2-Verde{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+
+    color: #9BF00B;
+}
+.texto__h2-Branco{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.texto__p{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 170%;
+}
