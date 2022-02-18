@@ -3,11 +3,11 @@
 
 primary --#9BF00B
 
-##Tipografia
+## Tipografia
 
 Inter
 
-##Cores neutras
+## Cores neutras
 
 dark --#0C0C0C
 gray-light --#C0C0C0
