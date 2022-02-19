@@ -24,6 +24,7 @@
 .principal__imagem{
     display: flex;
     position: relative;
+    width: 80vw;
 }
 .principal__textos{
     display: flex;
@@ -91,6 +92,7 @@
     display: flex;
     width: 100vw;
     flex-wrap: wrap;
+    padding-top: 5rem;
 }
 .foto{
     width: 25vw;
@@ -156,7 +158,4 @@
 }
 .displayNone{
     display: none;
-}
-.principal__imagem{
-    width: 100vw;
 }
