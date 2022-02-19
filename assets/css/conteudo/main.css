@@ -1,5 +1,5 @@
 .principal{
-    height: 100vh;
+    height: calc(100vh + 90px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,6 @@
 .principal__xbox{
     font-weight: 600;
     font-size: 4rem;
-    line-height: 115%;
     color: #FFFFFF;
 }
 .principal__pedido{
@@ -17,7 +16,6 @@
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.05em;
-    padding-bottom: 15vh;
     color: #9BF00B;
 }
 .principal__imagem img{
@@ -26,6 +24,12 @@
 .principal__imagem{
     display: flex;
     position: relative;
+}
+.principal__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 .principal__imagem::after{
     content: '';
@@ -54,11 +58,10 @@
 
 }
 .conteudo__textos{
-    width: 90vw;
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .texto__h2-Verde{
     font-weight: 600;
@@ -78,7 +81,8 @@
 .texto__p{
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 170%;
+    line-height: 2rem;
+    max-width: 35vw;
 }
 .imagem-controle{
     width: 400px;
@@ -116,6 +120,7 @@
 }
 .perguntas{
     padding-top: 2rem;
+    height: 50vh;
 }
 .perguntas__h3{
     font-weight: 500;

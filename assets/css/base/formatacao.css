@@ -12,5 +12,14 @@
     .texto__p{
         text-align: center;
     }
-
+    .conteudo__textos{
+        width: 90vw;
+        align-items: center;
+    }
+    .texto__p{
+        max-width: 80vw;
+    }
+    .principal__textos{
+        padding-bottom: 5vh;
+    }
 }
