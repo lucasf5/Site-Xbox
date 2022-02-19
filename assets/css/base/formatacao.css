@@ -1,0 +1,16 @@
+@media (max-width: 780px){
+    .menu{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .conteudo__controle{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding-bottom: 5rem;
+    }
+    .texto__p{
+        text-align: center;
+    }
+
+}
