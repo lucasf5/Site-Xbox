@@ -8,7 +8,7 @@
 }
 .principal__xbox{
     font-weight: 600;
-    font-size: 4rem;
+    font-size:clamp(2rem, 12vw, 5rem);
     color: #FFFFFF;
 }
 .principal__pedido{
@@ -24,7 +24,7 @@
 .principal__imagem{
     display: flex;
     position: relative;
-    width: 80vw;
+    width: 100vw;
 }
 .principal__textos{
     display: flex;
@@ -66,14 +66,14 @@
 }
 .texto__h2-Verde{
     font-weight: 600;
-    font-size: 64px;
+    font-size:clamp(2rem, 13vw, 5rem);
     line-height: 130%;
 
     color: #9BF00B;
 }
 .texto__h2-Branco{
     font-weight: 600;
-    font-size: 64px;
+    font-size:clamp(2rem, 13vw, 5rem);
     line-height: 130%;
 
     color: #FFFFFF;
@@ -82,11 +82,12 @@
 .texto__p{
     color: #FFFFFF;
     font-size: 20px;
+    line-height: 1.5rem;
     line-height: 2rem;
     max-width: 35vw;
 }
 .imagem-controle{
-    width: 400px;
+    width: 30vw;
 }
 .fotos{
     display: flex;
@@ -136,7 +137,8 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     color: #FFFFFF;
-    text-indent: 3rem;
+    text-indent: 1rem;
+    line-height: 2rem;
 }
 .perguntas__h3::after{
     content: '';
